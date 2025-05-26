@@ -9,9 +9,13 @@ if password != "priyav@1983!":
     st.warning("Incorrect password.")
     st.stop()
 
-st.title("Vivek Leadership Coach 🧠")
-st.markdown("Now trained on 75+ leadership and CEO books.")
+# Branding header
+st.image("https://i.imgur.com/M7o9m0B.png", use_column_width=True)
+st.markdown("## 🧠 Vivek Leadership Coach")
+st.markdown("**Your personalized leadership AI – trained on 75+ books including biographies, strategy, and emotional intelligence.**")
+st.markdown("---")
 
+# Chat setup
 client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 
 query = st.text_input("Ask your leadership question:")
