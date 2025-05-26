@@ -10,7 +10,7 @@ if password != "priyav@1983!":
     st.stop()
 
 # Branding header
-st.image("https://i.imgur.com/M7o9m0B.png", use_column_width=True)
+st.image("https://i.imgur.com/M7o9m0B.png", use_container_width=True)
 st.markdown("## 🧠 Vivek Leadership Coach")
 st.markdown("**Your personalized leadership AI – trained on 75+ books including biographies, strategy, and emotional intelligence.**")
 st.markdown("---")
